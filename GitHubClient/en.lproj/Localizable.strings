@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  GitHubClient
+
+  Created by Jun Gu on 11/21/24.
+  
+*/
+
+"Home" = "Home";
+"Profile" = "Profile";
+"Oops" = "Oops";
+"Some went wrong." = "Some went wrong.";
+"Login" = "Login";
+"Sign in with GitHub" = "Sign in with GitHub";
+"Logout" = "Logout";
+"followers" = "followers";
+"following" = "following";
+"search" = "search";

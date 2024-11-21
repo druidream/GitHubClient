@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  GitHubClient
+
+  Created by Jun Gu on 11/21/24.
+  
+*/
+
+"Home" = "主页";
+"Profile" = "个人";
+"Oops" = "噢";
+"Some went wrong." = "出错了";
+"Login" = "登录";
+"Sign in with GitHub" = "使用 GitHub 登录";
+"Logout" = "登出";
+"followers" = "关注我的";
+"following" = "我关注的";
+"search" = "搜索";
