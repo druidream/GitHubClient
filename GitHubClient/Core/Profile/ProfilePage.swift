@@ -29,13 +29,6 @@ struct ProfilePage: View {
 
                         }
                     }
-
-                    .sheet(isPresented: $showLogin) {
-                        LoginPage()
-                    }
-                    .fullScreenCover(isPresented: $profileViewModel.showError) {
-                        ErrorPage()
-                    }
             } else {
                 Button {
                     showLogin.toggle()
@@ -47,6 +40,12 @@ struct ProfilePage: View {
                         .clipShape(RoundedRectangle(cornerRadius: 16))
                 }
             }
+        }
+        .fullScreenCover(isPresented: $profileViewModel.showError) {
+            ErrorPage()
+        }
+        .sheet(isPresented: $showLogin) {
+            LoginPage()
         }
     }
 
